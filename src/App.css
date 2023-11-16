@@ -1,42 +1,244 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+:root {
+  --PrimaryColor: rgb(0, 208, 255);
+  --BackgroundColor: rgb(44, 44, 44);
+  --ContainerColor: rgb(65, 65, 65);
+  --HeaderColor: rgba(22, 22, 22, .9);
+}
+
+* {
+  font-family: "Calibri", Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 22px;
+}
+
+body {
+  background: var(--BackgroundColor);
+  color: white;
+}
+
+header {
+  background: var(--HeaderColor);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 15px 0px;
+}
+
+#logo {
+  width: 500px;
+  max-width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+a {
+  text-decoration: none; 
+  color: var(--PrimaryColor);
+}
+
+a:focus {
+  border-bottom: 2px solid;
+  border-color: var(--PrimaryColor);
+}
+
+#about-me {
+  display: flex;
+  padding: 30px;
+  background: linear-gradient(var(--ContainerColor), var(--HeaderColor));
+  border: 1px solid var(--PrimaryColor);
+  align-items: center;
+}
+
+#headshot {
+  margin: 10px;
+  height: auto;
+  width: 300px;
+  max-width: 100%;
+  max-height: 300px;
+  box-shadow: 0px 10px 10px 0px var(--HeaderColor);
+}
+
+#bio {
+  margin: 10px;
+  line-height: 40px;
+}
+
+.projects {
+  background: linear-gradient(var(--ContainerColor), var(--HeaderColor));
+  border: 1px solid var(--PrimaryColor);
+  min-height: 625px;
+}
+
+.project-images {
+  width: 100%;
+  height: 250px;
+}
+
+.projects:hover {
+  transform: scale(1.1);
+}
+
+.card-title a {
+  font-size: 32px;
+  text-decoration: underline;
+}
+
+.card-subtitle {
+  color: var(--PrimaryColor)
+}
+
+#form-container {
+  background-color: var(--ContainerColor);
+  border: 1px solid var(--PrimaryColor);
+  border-radius: 7px;
+  padding-bottom: 30px;
+}
+
+#submit-button-container {
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+#submitBtn, #resumeBtn {
+  color: var(--PrimaryColor);
+  background: linear-gradient(var(--ContainerColor), var(--HeaderColor));
+  border: 1px solid var(--PrimaryColor);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+#submitBtn:hover, #resumeBtn:hover {
+  color: var(--HeaderColor);
+  background: var(--PrimaryColor);
+  border: 1px solid var(--HeaderColor);
+}
+
+#submitBtn:active {
+  color: var(--PrimaryColor);
+  background: var(--HeaderColor);
+  border: 1px solid var(--PrimaryColor);
+}
+
+#email-phone-container {
+  display: flex;
+  justify-content: center;
+}
+
+#resume-container {
+  background: linear-gradient(var(--ContainerColor), var(--HeaderColor));
+  border: 1px solid var(--PrimaryColor);
+  border-radius: 7px;
+  min-height: 450px;
+  width: 75%;
+  max-width: 100%;
+  text-align: center;
+}
+
+#skill-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+
+.skills img {
+  width: 100px;
+}
+
+footer div {
+  font-size: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  color: var(--PrimaryColor);
+  margin: 10px 20px;
+  transition: all .3s ease-in-out;
+  transform: scale(2);
+}
+
+footer a:hover {
+  transform: scale(3);
+}
+
+footer p {
+  display: flex;
+  justify-content: center;
+  margin-top: 1vh;
+}
+
+@media only screen and (max-width: 1400px) {
+  .projects {
+    min-height: 675px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+@media only screen and (max-width: 1200px) {
+  .card-title a {
+    font-size: 24px;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media only screen and (max-width: 766px) {
+  #about-me {
+    display: block;
+  }
+
+  #headshot {
+    margin: 0 0 20px 0;
+  }
+
+  .skills {
+    width: 125px;
+    height: 125px;
+    padding: 8px;
+  }
+
+  .projects {
+    min-height: 600px;
   }
 }
 
-.card {
-  padding: 2em;
+@media only screen and (max-width: 540px) {
+  #email-phone-container {
+    display: block;
+    text-align: center;
+  }
+
+  .skills {
+    width: 90px;
+    height: 90px;
+    padding: 7px;
+  }
 }
 
-.read-the-docs {
-  color: #888;
+@media only screen and (max-width: 410px) {
+  .navbar-link {
+    display: block;
+    text-align: center;
+  }
+
+  .skills {
+    width: 75px;
+    height: 75px;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  * {
+    font-size: 18px;
+  }
+}
+
+#error-page {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
