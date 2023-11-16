@@ -1,8 +1,11 @@
-# React + Vite
+# [Portfolio](https://jpdev.codes/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+New portfolio built with React + Vite!
+- Used `npm create vite@latest`.
+- Designed for "mobile-first".
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Screenshot
+
+![Screenshot of my portfolio](./src/assets/images/screenshot.png)
