@@ -9,11 +9,11 @@
   font-family: "Calibri", Helvetica, sans-serif;
   font-weight: lighter;
   font-size: 22px;
+  color: white;
 }
 
 body {
   background: var(--BackgroundColor);
-  color: white;
 }
 
 header {
@@ -31,7 +31,7 @@ header {
   margin: auto;
 }
 
-a {
+a, .bi {
   text-decoration: none; 
   color: var(--PrimaryColor);
 }

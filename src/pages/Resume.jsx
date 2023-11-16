@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Skill from '../components/Skill'
 
-// import skillsJSON from '../skillData'
+import skillsJSON from '../skillData'
 
 function Resume() {
     const [skillList, setSkillList] = useState(skillsJSON)
