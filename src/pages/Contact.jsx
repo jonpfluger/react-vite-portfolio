@@ -53,6 +53,7 @@ function Contact() {
                 <i className="bi bi-phone"></i>
                 <p className="m-2">262-309-4464</p>
             </div>
+            
             <form id="form-container" className="container my-3" onSubmit={handleSubmit} action="https://formsubmit.co/jonpfluger718@gmail.com" method="POST">
                 <div className="form-group my-3">
                     <label htmlFor="nameInput">Name</label>
