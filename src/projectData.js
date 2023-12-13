@@ -28,7 +28,7 @@ export default [
     tech: "React, Vite, Tailwind, DaisyUI",
     imagePath: frugalFlooziesImg,
     alt: "Image of the Frugal Floozies homepage",
-    link: "https://www.thefrugalfloozies.com/"
+    link: "https://www.github.com/jonpfluger"
   },
   {
     id: 101,
