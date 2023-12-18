@@ -9,7 +9,7 @@ import bookSearchGIF from './assets/images/book-search-screenshot-min.gif'
 import remembrallImg from './assets/images/remembrall-homepage-screenshot-min.png'
 import e6Img from './assets/images/e6golf-min.jpg'
 import bayerImg from './assets/images/bayer-roofing-min.jpg'
-import frugalFlooziesImg from './assets/images/frugal-floozies-min.jpg'
+import couponChicksImg from './assets/images/frugal-floozies.jpg'
 
 export default [
   // {
@@ -23,12 +23,12 @@ export default [
   // },
   {
     id: 100,
-    title: "Frugal Floozies",
+    title: "The Coupon Chicks",
     description: "Fashion and lifestyle web app. Users can signup for a newsletter and read blog posts.",
     tech: "React, Vite, Tailwind, DaisyUI",
-    imagePath: frugalFlooziesImg,
-    alt: "Image of the Frugal Floozies homepage",
-    link: "https://www.github.com/jonpfluger"
+    imagePath: couponChicksImg,
+    alt: "Image of The Coupon Chicks homepage",
+    link: "https://jace0fbass.github.io/frugal-floozies//"
   },
   {
     id: 101,
