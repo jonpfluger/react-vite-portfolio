@@ -10,6 +10,7 @@ import remembrallImg from './assets/images/remembrall-homepage-screenshot-min.pn
 import e6Img from './assets/images/e6golf-min.jpg'
 import bayerImg from './assets/images/bayer-roofing-min.jpg'
 import couponChicksImg from './assets/images/frugal-floozies.jpg'
+import robowaveImg from './assets/images/robowave.png'
 
 export default [
   // {
@@ -47,6 +48,15 @@ export default [
     imagePath: e6Img,
     alt: "Image of the E6 Tour homepage",
     link: "https://e6-next.vercel.app/"
+  },
+  {
+    id: 103,
+    title: "Robowave",
+    description: "A ficticious robot company website for a Bootstrap, jQuery code-along in class. Third party API practice.",
+    tech: "Bootstrap, jQuery, Fullpage.js, Typewriter.js, Power Glitch, DayJS",
+    imagePath: robowaveImg,
+    alt: "Image of the Robowave homepage",
+    link: "https://jonpfluger.github.io/robowave-2023/"
   },
   {
     id: 1,
