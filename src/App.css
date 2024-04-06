@@ -63,6 +63,15 @@ a:focus {
   line-height: 40px;
 }
 
+h1 {
+  color: var(--PrimaryColor);
+  font-size: 2.75rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
 .projects {
   background: linear-gradient(var(--ContainerColor), var(--HeaderColor));
   border: 1px solid var(--PrimaryColor);

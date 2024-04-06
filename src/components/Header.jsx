@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from '../components/Nav'
-import logo from '../assets/images/logo3-min.png'
+import logo from '../assets/images/new-logos/JPDevWebLogo-02.png'
 
 function Header() {
     return (
