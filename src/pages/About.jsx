@@ -8,7 +8,7 @@ function About() {
             <div id='bio'>
                 <h1>Jon Pfluger</h1>
                 <h2>Full Stack Web Developer</h2>
-                <p>Full-stack developer leveraging background in mobile technology to build professional and intuitive user experiences on the web. Recently graduated from a full-stack coding boot camp from the University of Wisconsin with a 4.0 GPA. Post graduation, was hired as the TA for the next class in the boot camp. Excellent problem solver. Success with an agile team in a CI/CD pipeline.</p>
+                <p>Results-driven Full Stack Web Developer with a passion for building intuitive user experiences. Graduated with flying colors from the University of Wisconsin’s full-stack coding boot camp, earning a 4.0 GPA. Recognized for exceptional skills in computer programming and mentoring. Hired as a TA prior to graduation, played a pivotal role in guiding the next generation of developers. Proven track record of success as a developer and mentor. Seeking opportunities to contribute to dynamic projects in a collaborative environment.</p>
             </div>
         </div>
     )

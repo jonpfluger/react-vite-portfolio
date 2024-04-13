@@ -37,8 +37,7 @@ a, .bi {
 }
 
 a:focus {
-  border-bottom: 2px solid;
-  border-color: var(--PrimaryColor);
+  text-decoration: underline;
 }
 
 #about-me {
@@ -81,10 +80,6 @@ h2 {
 .project-images {
   width: 100%;
   height: 250px;
-}
-
-.projects:hover {
-  transform: scale(1.1);
 }
 
 .card-title a {
@@ -178,6 +173,12 @@ footer p {
   display: flex;
   justify-content: center;
   margin-top: 1vh;
+}
+
+@media only screen and (min-width: 650px) {
+  .projects:hover {
+    transform: scale(1.1);
+  }
 }
 
 @media only screen and (max-width: 1400px) {
