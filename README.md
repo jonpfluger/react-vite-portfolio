@@ -8,4 +8,4 @@ New portfolio built with React + Vite!
 
 ## Screenshot
 
-![Screenshot of my portfolio](./src/assets/images/screenshot.PNG)
+![Screenshot of my portfolio](./src/assets/images/screenshot.jpg)
