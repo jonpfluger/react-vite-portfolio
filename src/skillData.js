@@ -15,9 +15,12 @@ import bootstrapLogo from './assets/images/skillLogos/bootstrap-logo.svg'
 import tailwindLogo from './assets/images/skillLogos/tailwind-logo.jpg'
 import nextjsLogo from './assets/images/skillLogos/nextjs-logo.svg'
 import graphqlLogo from './assets/images/skillLogos/graphql-logo.svg'
-import apolloLogo from './assets/images/skillLogos/apollo-logo.svg'
 import gitLogo from './assets/images/skillLogos/git-logo.svg'
 import jqueryLogo from './assets/images/skillLogos/jquery-logo.svg'
+import magentoLogo from './assets/images/skillLogos/magento.webp'
+import phpLogo from './assets/images/skillLogos/php.png'
+import nginxLogo from './assets/images/skillLogos/nginx.png'
+import dockerLogo from './assets/images/skillLogos/docker.webp'
 
 export default [
   {
@@ -106,8 +109,8 @@ export default [
     id: 16
   },
   {
-    imgSrc: apolloLogo,
-    alt: "apollo",
+    imgSrc: nginxLogo,
+    alt: "Nginx",
     id: 17
   },
   {
@@ -119,5 +122,20 @@ export default [
     imgSrc: jqueryLogo,
     alt: "jquery",
     id: 19
+  },
+  {
+    imgSrc: magentoLogo,
+    alt: "magento",
+    id: 20
+  },
+  {
+    imgSrc: phpLogo,
+    alt: "php",
+    id: 21
+  },
+  {
+    imgSrc: dockerLogo,
+    alt: "docker",
+    id: 22
   },
 ]
