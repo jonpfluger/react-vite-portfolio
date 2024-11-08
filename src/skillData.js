@@ -21,6 +21,8 @@ import magentoLogo from './assets/images/skillLogos/magento.webp'
 import phpLogo from './assets/images/skillLogos/php.png'
 import nginxLogo from './assets/images/skillLogos/nginx.png'
 import dockerLogo from './assets/images/skillLogos/docker.webp'
+import wpLogo from './assets/images/skillLogos/wplogo.png'
+import elementorLogo from './assets/images/skillLogos/elementor-logo.svg'
 
 export default [
   {
@@ -137,5 +139,15 @@ export default [
     imgSrc: dockerLogo,
     alt: "docker",
     id: 22
+  },
+  {
+    imgSrc: wpLogo,
+    alt: "WordPress",
+    id: 23
+  },
+  {
+    imgSrc: elementorLogo,
+    alt: "Elementor",
+    id: 24
   },
 ]

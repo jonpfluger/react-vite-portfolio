@@ -11,17 +11,18 @@ import e6Img from './assets/images/e6golf-min.jpg'
 import bayerImg from './assets/images/bayer-roofing-min.jpg'
 import couponChicksImg from './assets/images/frugal-floozies.jpg'
 import robowaveImg from './assets/images/robowave.png'
+import kwikTripImg from './assets/images/kwik-trip-order-site.png'
 
 export default [
-  // {
-  //   id: 0,
-  //   title: "Gig Haus",
-  //   description: "Social media app for connecting musicians and venues.",
-  //   tech: "Next.js, React, MongoDB/Mongoose, Clerk",
-  //   imagePath: null,
-  //   alt: "Image of the Gig Haus homepage",
-  //   link: ""
-  // },
+  {
+    id: 0,
+    title: "Kwik Trip Employee Service Awards",
+    description: "Developed a fully customized webpage from scratch for Kwik Trip's employee recognition and service awards website.",
+    tech: "HTML, CSS, Git",
+    imagePath: kwikTripImg,
+    alt: "Image of the Gig Haus homepage",
+    link: "https://github.com/jonpfluger"
+  },
   {
     id: 100,
     title: "The Coupon Chicks",
@@ -65,7 +66,7 @@ export default [
     tech: "React-tsparticles, GraphQL, Apollo Server/Client, MongoDB/Mongoose, Node.js/Express.js",
     imagePath: remembrallImg,
     alt: "Image of the Remembrall game homepage",
-    link: "https://lit-cove-97949.herokuapp.com/"
+    link: "https://github.com/jonpfluger/remembrall-game"
   },
   {
     id: 2,
@@ -83,7 +84,7 @@ export default [
     tech: "Handlebars, SQL, Express, Sequelize, JavaScript, Node.js, Bootstrap",
     imagePath: houseRulesImg,
     alt: "Image of the House Rules homepage",
-    link: "https://house-rules.herokuapp.com"
+    link: "https://github.com/jonpfluger/house-rules"
   },
   {
     id: 4,
@@ -119,7 +120,7 @@ export default [
     tech: "Express, Node.js",
     imagePath: jateImg,
     alt: "Image of the JATE app running natively in the browser.",
-    link: "https://still-bastion-72387.herokuapp.com/"
+    link: "https://github.com/jonpfluger/just-another-text-editor"
   },
   {
     id: 8,
