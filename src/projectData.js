@@ -20,8 +20,8 @@ export default [
     description: "Developed a fully customized webpage from scratch for Kwik Trip's employee recognition and service awards website.",
     tech: "HTML, CSS, Git",
     imagePath: kwikTripImg,
-    alt: "Image of the Gig Haus homepage",
-    link: "https://github.com/jonpfluger"
+    alt: "Image of the Kwik Trip Employee Service Awards website",
+    link: "https://jonpfluger.github.io/kwik-trip-order-site-sample/"
   },
   {
     id: 100,
