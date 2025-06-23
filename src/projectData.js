@@ -12,37 +12,33 @@ import bayerImg from './assets/images/bayer-roofing-min.jpg'
 import couponChicksImg from './assets/images/frugal-floozies.jpg'
 import robowaveImg from './assets/images/robowave.png'
 import kwikTripImg from './assets/images/kwik-trip-order-site.png'
+import snootziImg from './assets/images/snootzi.jpg'
+import royalRecImg from './assets/images/royalrec.jpg'
+
+/*
+{
+  id: 0,
+  title: "Snootzi",
+  description: "Ecommerce website for a pet supply company. Users can browse products, add them to their cart, and checkout.",
+  tech: "React, HTML, CSS, JavaScript, SQL",
+  imagePath: snootziImg,
+  alt: "Image of the Snootzi website",
+  link: "https://snootzi.com/"
+},
+*/
 
 export default [
   {
     id: 0,
-    title: "Kwik Trip Employee Service Awards",
-    description: "Developed a fully customized webpage from scratch for Kwik Trip's employee recognition and service awards website.",
-    tech: "HTML, CSS, Git",
-    imagePath: kwikTripImg,
-    alt: "Image of the Kwik Trip Employee Service Awards website",
-    link: "https://jonpfluger.github.io/kwik-trip-order-site-sample/"
+    title: "Royal Recognition",
+    description: "Homepage for a company that provides recognition and awards for employees. Users can browse awards and learn more about the company.",
+    tech: "WordPress, HTML, CSS, JavaScript, PHP",
+    imagePath: royalRecImg,
+    alt: "Image of the Royal Recognition website",
+    link: "https://royalrec.com/"
   },
   {
-    id: 100,
-    title: "The Coupon Chicks",
-    description: "Fashion and lifestyle web app. Users can signup for a newsletter and read blog posts.",
-    tech: "React, Vite, Tailwind, DaisyUI",
-    imagePath: couponChicksImg,
-    alt: "Image of The Coupon Chicks homepage",
-    link: "https://jace0fbass.github.io/frugal-floozies//"
-  },
-  {
-    id: 101,
-    title: "Bayer Roofing",
-    description: "Web app built for a Roofing Company. Users can fill out a contact form.",
-    tech: "React, Bootstrap, CSS, JavaScript",
-    imagePath: bayerImg,
-    alt: "Image of the Bayer Roofing homepage",
-    link: "https://jonpfluger.github.io/bayer-roofing/"
-  },
-  {
-    id: 102,
+    id: 1,
     title: "Bullseye Golf Sims",
     description: "A website built for the golf simulator league ran by Bullseye Golf Sims and TruGolf Inc.",
     tech: "Next.js 13, Typescript, React, CSS3, Bootstrap5, GraphQL, and Apollo.",
@@ -51,7 +47,25 @@ export default [
     link: "https://e6-next.vercel.app/"
   },
   {
-    id: 103,
+    id: 2,
+    title: "Remembrall Game",
+    description: "Group project, MERN stack. A user can play a memory game.",
+    tech: "React, GraphQL, Apollo Server/Client, MongoDB/Mongoose, Node.js/Express.js",
+    imagePath: remembrallImg,
+    alt: "Image of the Remembrall game homepage",
+    link: "https://github.com/jonpfluger/remembrall-game"
+  },
+  {
+    id: 3,
+    title: "Kwik Trip Employee Service Awards",
+    description: "Developed a fully customized webpage from scratch for Kwik Trip's employee recognition and service awards website.",
+    tech: "HTML, CSS, Git",
+    imagePath: kwikTripImg,
+    alt: "Image of the Kwik Trip Employee Service Awards website",
+    link: "https://jonpfluger.github.io/kwik-trip-order-site-sample/"
+  },
+  {
+    id: 4,
     title: "Robowave",
     description: "A ficticious robot company website for a Bootstrap, jQuery code-along in class. Third party API practice.",
     tech: "Bootstrap, jQuery, Fullpage.js, Typewriter.js, Power Glitch, DayJS",
@@ -60,16 +74,25 @@ export default [
     link: "https://jonpfluger.github.io/robowave-2023/"
   },
   {
-    id: 1,
-    title: "Remembrall Game",
-    description: "Group project, MERN stack. A user can play a memory game.",
-    tech: "React-tsparticles, GraphQL, Apollo Server/Client, MongoDB/Mongoose, Node.js/Express.js",
-    imagePath: remembrallImg,
-    alt: "Image of the Remembrall game homepage",
-    link: "https://github.com/jonpfluger/remembrall-game"
+    id: 5,
+    title: "The Coupon Chicks",
+    description: "Fashion and lifestyle web app. Users can signup for a newsletter and read blog posts.",
+    tech: "React, Vite, Tailwind CSS, JavaScript",
+    imagePath: couponChicksImg,
+    alt: "Image of The Coupon Chicks homepage",
+    link: "https://jace0fbass.github.io/frugal-floozies//"
   },
   {
-    id: 2,
+    id: 6,
+    title: "Bayer Roofing",
+    description: "Web app built for a Roofing Company. Users can fill out a contact form.",
+    tech: "React, Bootstrap, CSS, JavaScript",
+    imagePath: bayerImg,
+    alt: "Image of the Bayer Roofing homepage",
+    link: "https://jonpfluger.github.io/bayer-roofing/"
+  },
+  {
+    id: 7,
     title: "Book Search Engine",
     description: "Google Books API search engine. Allows users to save book searches to the back end. MERN stack.",
     tech: "React, GraphQL, Apollo, MongoDB/Mongoose, Node.js, Express.js",
@@ -78,7 +101,7 @@ export default [
     link: "https://github.com/jonpfluger/book-search-engine"
   },
   {
-    id: 3,
+    id: 8,
     title: "House Rules",
     description: "Group project, full stack application. A user can signup/login and create posts, view others' posts",
     tech: "Handlebars, SQL, Express, Sequelize, JavaScript, Node.js, Bootstrap",
@@ -87,7 +110,7 @@ export default [
     link: "https://github.com/jonpfluger/house-rules"
   },
   {
-    id: 4,
+    id: 9,
     title: "Celebrity Astrology",
     description: "Group project, front end application. Uses multiple third party API's",
     tech: "jQuery, JavaScript, HTML, CSS, MUI",
@@ -96,7 +119,7 @@ export default [
     link: "https://jonpfluger.github.io/celebrity-astrology"
   },
   {
-    id: 5,
+    id: 10,
     title: "E-Commerce Back End",
     description: "Back end for an e-commerce site. It is a working Express API that uses Sequelize to interact with a MySQL database.",
     tech: "Express, MySQL, Sequelize, Node.js, JavaScript",
@@ -105,7 +128,7 @@ export default [
     link: "https://github.com/jonpfluger/e-commerce-back-end"
   },
   {
-    id: 6,
+    id: 11,
     title: "Social Network API",
     description: "API for a social network web app where users can create a friends list, share thoughts, and react to friends' thoughts.",
     tech: "MongoDB, Mongoose, Express, Node.js, JavaScript",
@@ -114,7 +137,7 @@ export default [
     link: "https://github.com/jonpfluger/social-network-api"
   },
   {
-    id: 7,
+    id: 12,
     title: "Just Another Text Editor",
     description: "Single-page PWA text editor. Functions offline natively and in the browser.",
     tech: "Express, Node.js",
@@ -123,7 +146,7 @@ export default [
     link: "https://github.com/jonpfluger/just-another-text-editor"
   },
   {
-    id: 8,
+    id: 13,
     title: "Note Taker",
     description: "Uses an Express back end, saves and retrieves note data from a JSON file.",
     tech: "Express, Node.js, JavaScript",
@@ -132,7 +155,7 @@ export default [
     link: "https://github.com/jonpfluger/note-taker"
   },
   {
-    id: 9,
+    id: 14,
     title: "Team Profile Generator",
     description: "Uses Node.js to generate a team profile HTML doc",
     tech: "Inquirer, Jest, Node.js, JavaScript",
