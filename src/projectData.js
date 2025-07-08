@@ -62,7 +62,7 @@ export default [
     tech: "HTML, CSS, Git",
     imagePath: kwikTripImg,
     alt: "Image of the Kwik Trip Employee Service Awards website",
-    link: "https://jonpfluger.github.io/kwik-trip-order-site-sample/"
+    link: "https://jonpfluger.github.io/kwik-trip-employee-service-awards/"
   },
   {
     id: 4,
